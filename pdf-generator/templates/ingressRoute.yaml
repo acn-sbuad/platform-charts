@@ -1,6 +1,4 @@
 {{- $environment := .Values.environment }}
-{{- $routeMatch := .Values.ingressRoute.routes.route.match $environment }}
-{{- if $routeMatch }}
 apiVersion: traefik.containo.us/v1alpha1
 kind: IngressRoute
 metadata:
@@ -10,10 +8,10 @@ spec:
   {{- range $entryPoint := .Values.ingressRoute.entryPoints }}
   - {{ $entryPoint }}
   {{- end }}
+  routes:
   {{- range $route := .Values.ingressRoute.routes }}
-  routes: 
-  - kind: {{ $route.kind }}
-    match: {{ $routeMatch }}
+  - match: {{ $route.match }}
+    kind: {{ $route.kind }}
     {{- if $route.priority }}
     priority: {{ $route.priority }}
     {{- end }}
@@ -40,4 +38,3 @@ spec:
     secretName: {{ .Values.ingressRoute.tls.secretName }}
     {{- end }}
   {{- end }}
-{{- end }}
