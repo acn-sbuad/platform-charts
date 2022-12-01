@@ -2,11 +2,19 @@ apiVersion: v1
 entries:
   pdf-generator:
   - apiVersion: v1
-    created: "2022-12-01T12:38:03.1076003+01:00"
+    created: "2022-12-01T12:53:14.4130658+01:00"
+    description: A Helm chart for the pdf generator
+    digest: 84465aa4b0a3889d6d6b8cf5e47862c41f98b8c732a055d744c0532d79d1d937
+    name: pdf-generator
+    urls:
+    - https://acn-sbuad.github.io/platform-charts/pdf-generator-1.2.1.tgz
+    version: 1.2.1
+  - apiVersion: v1
+    created: "2022-12-01T12:53:14.4124827+01:00"
     description: A Helm chart for the pdf generator
     digest: c8d45aa7035cb6d6066ea37516685a752701d586ff044d62a68afcbb86180e4b
     name: pdf-generator
     urls:
     - https://acn-sbuad.github.io/platform-charts/pdf-generator-1.2.0.tgz
     version: 1.2.0
-generated: "2022-12-01T12:38:03.1070325+01:00"
+generated: "2022-12-01T12:53:14.4118979+01:00"
