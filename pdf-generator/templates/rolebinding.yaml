@@ -2,7 +2,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   name: pdf-generator-role-binding
-   namespace: pdf
+  namespace: pdf
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: Role
