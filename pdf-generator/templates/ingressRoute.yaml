@@ -18,6 +18,7 @@ spec:
     services:
     {{- range $service := $route.services }}
     - name: {{ $service.name }}
+      namespace: {{ .Values.service.namespace }}
       port: {{ $service.port }}
     {{- end }}
     {{- if $route.middlewares }}
