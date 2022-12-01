@@ -1,0 +1,38 @@
+apiVersion: v1
+entries:
+  browserless-chrome:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.54.0
+    created: "2022-12-01T10:50:20.7005813+01:00"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.0.4
+    description: Browserless is a web-service that allows for remote clients to connect,
+      drive, and execute headless work
+    digest: a15e51168933902408d65f941a78d53cdc08b65a31fbd9c8b9724032bf458f52
+    home: https://truecharts.org/docs/charts/stable/browserless-chrome
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/browserless-chrome.png
+    keywords:
+    - browserless
+    - chrome
+    - puppeteer
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: browserless-chrome
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/browserless-chrome
+    - https://docs.browserless.io/docs/docker.html
+    - https://hub.docker.com/r/browserless/chrome/
+    urls:
+    - https://acn-sbuad.github.io/platform-charts/browserless-chrome-4.0.2.tgz
+    version: 4.0.2
+generated: "2022-12-01T10:50:20.6906967+01:00"
