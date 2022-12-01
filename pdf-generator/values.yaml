@@ -39,7 +39,7 @@ ingressRoute:
     - https
   routes:
     - match:
-      yt01: Host(`ttd.apps.yt01.altinn.cloud`)&&PathPrefix(`/pdf`)
+        yt01: Host(`ttd.apps.yt01.altinn.cloud`)&&PathPrefix(`/pdf`)
       kind: Rule
       services:
         - name: pdf-generator
