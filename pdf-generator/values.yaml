@@ -1,5 +1,7 @@
 replicaCount: 2
 
+environment: development
+
 autoscaling:
   enabled: true
   replicas:
@@ -36,7 +38,8 @@ ingressRoute:
     - http
     - https
   routes:
-    - match: Host(`ttd.apps.at22.altinn.cloud`)&&PathPrefix(`/pdf`)
+    - match:
+      yt01: Host(`ttd.apps.yt01.altinn.cloud`)&&PathPrefix(`/pdf`)
       kind: Rule
       services:
         - name: pdf-generator
