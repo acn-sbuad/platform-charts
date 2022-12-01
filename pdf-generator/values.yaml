@@ -40,7 +40,6 @@ ingressRoute:
       kind: Rule
       services:
         - name: pdf-generator
-          namespace: pdf
           port: 80
       middlewares:
         - name: hsts-header
