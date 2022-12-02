@@ -31,22 +31,3 @@ service:
   externalPort: 80
   # If your application is running on another port, change only the internal port.
   internalPort: 3000
-
-ingressRoute:
-  name: pdf-generator-ingress-route
-  entryPoints:
-    - http
-    - https
-  routes:
-    - match:
-        yt01: Host(`ttd.apps.yt01.altinn.cloud`)&&PathPrefix(`/pdf`)
-      kind: Rule
-      services:
-        - name: pdf-generator
-          port: 80
-      middlewares:
-        - name: hsts-header
-  tls:
-    options:
-      name: tls-options
-    secretName: ssl-cert
