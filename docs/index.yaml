@@ -2,15 +2,15 @@ apiVersion: v1
 entries:
   pdf-generator:
   - apiVersion: v1
-    created: "2022-12-01T15:26:43.012348+01:00"
+    created: "2022-12-01T15:46:04.5763106+01:00"
     description: A Helm chart for the pdf generator
-    digest: 5a5138dd908018e6b3ed4c66af5db91be1a554220b9948664e3da7559f1032c5
+    digest: 21f9e69b8f3af76851802098389703150a95934560856404cb70233744f4ac38
     name: pdf-generator
     urls:
     - https://acn-sbuad.github.io/platform-charts/pdf-generator-1.2.4.tgz
     version: 1.2.4
   - apiVersion: v1
-    created: "2022-12-01T15:26:43.0086828+01:00"
+    created: "2022-12-01T15:46:04.575787+01:00"
     description: A Helm chart for the pdf generator
     digest: 19a4f6445c3b68b3cdb4b0e49c0201e3d9005ada4d425acc92d1bfc2b1af042c
     name: pdf-generator
@@ -18,7 +18,7 @@ entries:
     - https://acn-sbuad.github.io/platform-charts/pdf-generator-1.2.3.tgz
     version: 1.2.3
   - apiVersion: v1
-    created: "2022-12-01T15:26:43.005536+01:00"
+    created: "2022-12-01T15:46:04.5731755+01:00"
     description: A Helm chart for the pdf generator
     digest: 35388ccecfa3e2e69082445ffbd18330f91e548ad11b0ebc82f5a8e3ea60256b
     name: pdf-generator
@@ -26,7 +26,7 @@ entries:
     - https://acn-sbuad.github.io/platform-charts/pdf-generator-1.2.2.tgz
     version: 1.2.2
   - apiVersion: v1
-    created: "2022-12-01T15:26:43.002517+01:00"
+    created: "2022-12-01T15:46:04.5698708+01:00"
     description: A Helm chart for the pdf generator
     digest: 559e3a29e5f7affb26ce0a2fa40586d7c5bbe20a7a3db708ac0e33c7ffdc2525
     name: pdf-generator
@@ -34,11 +34,11 @@ entries:
     - https://acn-sbuad.github.io/platform-charts/pdf-generator-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v1
-    created: "2022-12-01T15:26:42.9983457+01:00"
+    created: "2022-12-01T15:46:04.5667298+01:00"
     description: A Helm chart for the pdf generator
     digest: c8d45aa7035cb6d6066ea37516685a752701d586ff044d62a68afcbb86180e4b
     name: pdf-generator
     urls:
     - https://acn-sbuad.github.io/platform-charts/pdf-generator-1.2.0.tgz
     version: 1.2.0
-generated: "2022-12-01T15:26:42.9938129+01:00"
+generated: "2022-12-01T15:46:04.5620308+01:00"
